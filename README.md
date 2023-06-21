@@ -1,4 +1,10 @@
+Frontend
+
 Deployment link: https://sign-language-project-pjxg.vercel.app/frontend/index.html
+
+Backend
+
+The backend is deployed on https://se-project-backend.onrender.com.
 
 Database
 
