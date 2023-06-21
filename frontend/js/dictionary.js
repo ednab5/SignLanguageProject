@@ -63,7 +63,7 @@ $(document).ready(function () {
 
           // Send the image file to the backend API for updating
           $.ajax({
-            url: 'http://localhost/signlanguage/backend/update_image/' + cardId,
+            url: 'https://se-project-backend.onrender.com/update_image/' + cardId,
             type: 'POST',
             data: formData,
             processData: false,
@@ -108,7 +108,7 @@ $(document).ready(function () {
   function reloadDictionaryData() {
     $.ajax({
       type: 'GET',
-      url: 'http://localhost/signlanguage/backend/dictionary',
+      url: 'https://se-project-backend.onrender.com/dictionary',
       success: function (response) {
         // Process the received data
         console.log(response);
@@ -138,7 +138,7 @@ $(document).ready(function () {
 
     // Send the form data to the backend API for adding the entry
     $.ajax({
-      url: 'http://localhost/signlanguage/backend/add_dictionary',
+      url: 'https://se-project-backend.onrender.com/add_dictionary',
       type: 'POST',
       data: formData,
       processData: false,
@@ -160,7 +160,7 @@ $(document).ready(function () {
   function deleteDictionaryEntry(cardId, callback) {
     // Send the delete request to the backend API
     $.ajax({
-      url: 'http://localhost/signlanguage/backend/delete_dictionary/' + cardId,
+      url: 'https://se-project-backend.onrender.com/delete_dictionary/' + cardId,
       type: 'DELETE',
       success: function (response) {
         alert(response.message);

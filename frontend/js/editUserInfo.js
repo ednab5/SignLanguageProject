@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // Retrieve the existing user data from the server
     $.ajax({
-        url: 'http://localhost/signlanguage/backend/get_user/' + userId,
+        url: 'https://se-project-backend.onrender.com/get_user/' + userId,
         type: 'GET',
         success: function (response) {
             // Retrieve the existing user data from the response

@@ -20,7 +20,7 @@ $(document).ready(function () {
         // Send the form data to the server using Ajax
         $.ajax({
             type: "POST",
-            url: "http://localhost/signlanguage/backend/send_message",
+            url: "https://se-project-backend.onrender.com/send_message",
             data: formData,
             success: function (response) {
                 $("#contactForm")[0].reset();

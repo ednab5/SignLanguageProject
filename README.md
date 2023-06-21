@@ -1,6 +1,6 @@
 Frontend
 
-Deployment link: https://sign-language-project-pjxg.vercel.app/frontend/index.html
+Deployment link: https://649320e91649721b7935a89d--comforting-genie-2c8933.netlify.app
 
 Backend
 

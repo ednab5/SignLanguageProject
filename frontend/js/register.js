@@ -52,7 +52,7 @@ $(document).ready(function () {
             // Perform AJAX request
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost/signlanguage/backend/register',
+                url: 'https://se-project-backend.onrender.com/register',
                 data: data,
                 success: successHandler,
                 error: errorHandler

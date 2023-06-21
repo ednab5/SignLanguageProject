@@ -51,7 +51,7 @@ $(document).ready(function () {
         // Build the AJAX request
         var ajaxRequest = ajaxRequestBuilder
             .setRequestType('POST')
-            .setUrl('http://localhost/signlanguage/backend/login')
+            .setUrl('https://se-project-backend.onrender.com/login')
             .setData(formData)
             .setSuccessCallback(function (response) {
                 // Store user ID in localStorage

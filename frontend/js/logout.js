@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     // Create logout request using the builder
     var logoutRequest = new AjaxRequestBuilder()
-        .setUrl('http://localhost/signlanguage/backend/logout')
+        .setUrl('https://se-project-backend.onrender.com/logout')
         .setSuccessCallback(function () {
             localStorage.removeItem('userId');
             window.location.href = 'index.html';
